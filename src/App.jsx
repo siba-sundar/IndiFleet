@@ -83,11 +83,11 @@ function App() {
           element: <SignUpCard />
         },
         {
-          path: "signintd",
+          path: "signint-driver",
           element: <SignInTD />
         },
         {
-          path: "signuptd",
+          path: "signupt-driver",
           element: <SignUpTD />
         },
         {
@@ -95,38 +95,38 @@ function App() {
           element: <OtpPageTD />
         },
         {
-          path: "signupdetailstd",
+          path: "signupdetailst-driver",
           element: <SignUpDetailsTD />
         },
         {
-          path: "signupp",
+          path: "signup-company",
           element: <SignUpP />
         },
         {
-          path: "signinp",
+          path: "signin-company",
           element: <SignInP />
         },
         {
-          path: "signupdetailsp",
+          path: "signupdetails-company",
           element: <SignUpDetailsP />
         },
         {
-          path: "signupb",
+          path: "signup-partner",
           element: <SignUpB />
         },
         {
-          path: "signinb",
+          path: "signin-partner",
           element: <SignInB />
         },
         {
-          path: "signupdetailsb",
+          path: "signupdetails-partner",
           element: <SignUpDetailsB />
         }
       ]
     },
     // Department of Posts (DOP) routes
     {
-      path: "/dop",
+      path: "/company",
       element: <DopLayouts />,
       children: [
         {

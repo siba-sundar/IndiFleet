@@ -6,9 +6,8 @@ const SignInTD = ({handleDriverPage}) => {
 
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevent default form submission
-    // Perform validation or any other actions here
-    handleDriverPage();
-    navigate('/your-truck'); // Navigate to the landing page after successful sign-in
+    
+    navigate('/driver/your-truck'); // Navigate to the landing page after successful sign-in
   };
 
   return (
@@ -54,7 +53,6 @@ const SignInTD = ({handleDriverPage}) => {
             <button
               type="submit"
               className="w-44 bg-black text-white px-4 py-2 text-lg font-semibold rounded-full hover:shadow-lg"
-              onClick={() =>navigate('/your-truck')}
             >
               Sign In
             </button>

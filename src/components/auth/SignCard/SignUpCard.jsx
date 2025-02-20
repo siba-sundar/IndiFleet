@@ -25,10 +25,23 @@ const SignUpCard = () => {
         {/* Right Side with Cards */}
         <div className="flex flex-col justify-center px-12 py-12">
           <div className="grid grid-cols-1 gap-8">
+
+             {/* Card 3 */}
+             <div
+              className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
+              onClick={() => navigate('/auth/signupp')}
+            >
+              <img src={Image2} alt="Logo" className="w-16 h-16 mr-6" />
+              <div>
+                <h3 className="text-lg font-semibold">Company Member</h3>
+              </div>
+            </div>
+
+
             {/* Card 1 */}
             <div
               className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/signuptd')}
+              onClick={() => navigate('/auth/signuptd')}
             >
               <img src={Image4} alt="Logo" className="w-16 h-16 mr-6" />
               <div>
@@ -39,7 +52,7 @@ const SignUpCard = () => {
             {/* Card 2 */}
             <div
               className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/signupb')}
+              onClick={() => navigate('/auth/signupb')}
             >
               <img src={Image1} alt="Logo" className="w-16 h-16 mr-6" />
               <div>
@@ -47,16 +60,7 @@ const SignUpCard = () => {
               </div>
             </div>
   
-            {/* Card 3 */}
-            <div
-              className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/signupp')}
-            >
-              <img src={Image2} alt="Logo" className="w-16 h-16 mr-6" />
-              <div>
-                <h3 className="text-lg font-semibold">Postal Department</h3>
-              </div>
-            </div>
+           
             <div className="flex gap-2 text-center justify-center ">
                 <h4>Already have an Account?</h4>
                 <button className="font-semibold" onClick={handleSignIn}>

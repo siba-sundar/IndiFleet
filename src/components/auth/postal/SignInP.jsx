@@ -7,7 +7,7 @@ const SignInP = () => {
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevent default form submission
     // Perform validation or any other actions here
-    navigate('/'); // Navigate to the landing page after successful sign-in
+    navigate('/company/truck'); // Navigate to the landing page after successful sign-in
   };
 
   return (

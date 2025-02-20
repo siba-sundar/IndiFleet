@@ -10,10 +10,10 @@ import profileIcon from "../../assets/profile-icon.svg";
 function DopNav() {
   const navigate = useNavigate();
   const location = useLocation();
-  
+
   // Define options and route map at the top level
   const options = ['Truck', 'Third Party Logistics', 'Drivers', 'Warehouse', 'Inbox'];
-  
+
   const routeMap = {
     'Truck': '/truck',
     'Third Party Logistics': '/third-party-logistics',
@@ -25,7 +25,7 @@ function DopNav() {
   // Get current active option based on path
   const getCurrentOption = () => {
     const path = location.pathname.split('/').pop();
-    const currentOption = options.find(option => 
+    const currentOption = options.find(option =>
       routeMap[option].substring(1) === path
     );
     return currentOption || options[0];
@@ -35,7 +35,7 @@ function DopNav() {
 
   const handleOptionClick = (option) => {
     setActiveOption(option);
-    const path = `/dop${routeMap[option]}`;
+    const path = `/company${routeMap[option]}`;
     navigate(path);
   };
 
@@ -43,19 +43,18 @@ function DopNav() {
     <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
       <div className="flex items-center space-x-8">
         {/* Logo */}
-        <img src={logo} alt="Logo" className="h-8" />
-        
+        <img src={logo} alt="Logo" className="h-8" onClick={() => navigate('/')} />
+
         {/* Navigation Options */}
-        <div className="flex space-x-4">
+        <div className="flex items-center justify-center gap-5">
           {options.map((option) => (
             <button
               key={option}
               onClick={() => handleOptionClick(option)}
-              className={`px-4 py-2 rounded-md transition-colors ${
-                activeOption === option
-                  ? 'bg-blue-600 text-white'
-                  : 'text-gray-600 hover:bg-gray-100'
-              }`}
+              className={`font-semibold text-sm px-8 border-2 border-[#020073] shadow-xl py-2 rounded-xl cursor-pointer transition duration-300 ${activeOption === option
+                  ? 'bg-[#020073] text-white'
+                  : 'bg-white text-black'
+                }`}
             >
               {option}
             </button>

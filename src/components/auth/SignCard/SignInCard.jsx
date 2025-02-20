@@ -28,18 +28,18 @@ const SignInCard = () => {
              {/* Card 3 */}
              <div
               className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/auth/signinp')}
+              onClick={() => navigate('/auth/signin-company')}
             >
               <img src={Image2} alt="Logo" className="w-16 h-16 mr-6" />
               <div>
-                <h3 className="text-lg font-semibold">Postal Department</h3>
+                <h3 className="text-lg font-semibold">Company Member</h3>
               </div>
             </div>
            
             {/* Card 1 */}
             <div
               className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/auth/signintd')}
+              onClick={() => navigate('/auth/signint-driver')}
             >
               <img src={Image4} alt="Logo" className="w-16 h-16 mr-6" />
               <div>
@@ -50,7 +50,7 @@ const SignInCard = () => {
             {/* Card 2 */}
             <div
               className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/auth/signinb')}
+              onClick={() => navigate('/auth/signin-partner')}
             >
               <img src={Image1} alt="Logo" className="w-16 h-16 mr-6" />
               <div>

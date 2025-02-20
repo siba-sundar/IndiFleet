@@ -36,7 +36,7 @@ function TopNav({ options = ['Your Truck', 'Sentiment Analysis'] }) {
   return (
     <div className="grid grid-cols-[20%_60%_20%] px-2">
       <div className="flex justify-center items-center">
-        <img src={logo} alt="logo" className="w-[7rem] mt-[2px]" />
+        <img src={logo} alt="logo" className="w-[7rem] mt-[2px]" onClick={() => navigate('/')} />
       </div>
 
       {/* Options */}
