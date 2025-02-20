@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { PlusCircle, Trash2, Truck, MapPin, Package, CreditCard } from 'lucide-react';
 
 const ReservationSystem = () => {
