@@ -68,10 +68,10 @@ const Navbar = () => {
           {/* Main Nav Items */}
           <ul className="md:flex space-x-12 hidden">
             {navItems.map(({ link, path, dropdown }) => (
-              <li key={path} className="relative group">
+              <li key={path} className="relative group" onClick={() => dropdown && toggleDropdown(link)} >
                 <div
                   className="flex items-center cursor-pointer"
-                  onClick={() => dropdown && toggleDropdown(link)} // Toggle dropdown on click
+                  // Toggle dropdown on click
                 >
                   <Link
                     to={path}
@@ -124,14 +124,14 @@ const Navbar = () => {
             {/* Sign In Button */}
             <button
               onClick={() => navigate('/auth/signincard')} // Navigate to SignIn component
-              className="hidden lg:flex items-center bg-neutralDGrey text-white px-6 py-2 border-2 font-bold rounded-full transition-all duration-300 hover:drop-shadow-lg"
+              className="bg-black lg:flex items-center bg-neutralDGrey text-white px-6 py-2 border-2 font-bold rounded-full transition-all duration-300 hover:drop-shadow-lg hover:text-black hover:bg-white"
             >
               Sign In
             </button>
             {/* Sign Up Button */}
             <button
               onClick={() => navigate('/auth/signupcard')} // Navigate to SignUp component
-              className="bg-white text-brandPrimary px-6 py-2 border-2 border-neutralDGrey rounded-full font-bold transition-all duration-300 hover:text-white hover:bg-neutralDGrey hover:drop-shadow-lg"
+              className="bg-white text-brandPrimary px-6 py-2 border-2 border-neutralDGrey rounded-full font-bold transition-all duration-300 hover:text-white hover:bg-neutralDGrey hover:drop-shadow-lg hover:bg-black"
             >
               Sign Up
             </button>

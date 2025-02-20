@@ -23,7 +23,7 @@ const Demo = () => {
         Sign Up for Free
         </button>
         <button
-            className="px-8 py-4 bg-[#2563EB] text-white font-bold text-lg border-2 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:bg-white hover:text-brandPrimary"
+            className="px-8 py-4 bg-[#2563EB] text-white font-bold text-lg border-2 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:bg-white hover:text-black hover:text-brandPrimary"
             onClick={handleGetStarted}
         >
         Try Free Demo
