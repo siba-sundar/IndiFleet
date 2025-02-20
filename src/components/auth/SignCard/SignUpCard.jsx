@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 import Image4 from '../../../assets/Image 4.svg';
 import Image1 from '../../../assets/Image 1.svg';
