@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import companyImg from "../../../assets/company-logo.svg"; // Replace with the actual path to your company logo
 

@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const Services = () => {
   const keyFeatures = [
@@ -69,7 +69,7 @@ const Services = () => {
           <h2 className="text-5xl text-brandPrimary font-bold mb-3">Key Features</h2>
         </div>
         <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 md:w-11/12 mx-auto">
-          {keyFeatures.map((service, index) => (
+          {keyFeatures.map((service) => (
             <div
               key={service.id}
               className={`relative px-4 py-8 text-center w-64 h-[300px] mx-auto`}

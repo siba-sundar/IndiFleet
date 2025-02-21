@@ -1,5 +1,5 @@
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
-import React from 'react';
+
 
 // Data for the concentric circle chart
 const data = [
@@ -26,7 +26,7 @@ function ConcentricCircleChart() {
           innerRadius={40}
           fill="#8884d8"
           paddingAngle={3}
-          label={({ name, percent }) => `${(percent * 100).toFixed(0)}%`}
+          label={({  percent }) => `${(percent * 100).toFixed(0)}%`}
         >
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

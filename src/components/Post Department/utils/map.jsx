@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function MapDashboard({ trucks }) {
   const selectedTruck = trucks[0]; // Default to the first truck

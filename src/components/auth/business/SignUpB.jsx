@@ -1,5 +1,5 @@
-import  { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useState } from 'react'; // Import useState from react
+import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
 
 const SignUpB = () => {
   const [email, setEmail] = useState('');
@@ -24,8 +24,8 @@ const SignUpB = () => {
           <div className="mb-4">
             <label className="block text-black mb-2 font-semibold">Email Id</label>
             <input
-              type="text"
-              className="w-full px-4 py-2 border rounded-lg"
+              type="email"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
               placeholder="Enter your Email Id"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -36,7 +36,7 @@ const SignUpB = () => {
             <label className="block text-black mb-2 font-semibold">Password</label>
             <input
               type="password"
-              className="w-full px-4 py-2 border rounded-lg"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
               placeholder="Enter your password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -47,7 +47,7 @@ const SignUpB = () => {
             <label className="block text-black mb-2 font-semibold">Confirm Password</label>
             <input
               type="password"
-              className="w-full px-4 py-2 border rounded-lg"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
               placeholder="Confirm your password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
@@ -57,8 +57,7 @@ const SignUpB = () => {
           <div className="flex text-center justify-center mb-2">
             <button
               type="submit"
-              className="w-44 bg-black text-white px-4 py-2 text-lg font-semibold rounded-full hover:shadow-lg"
-              
+              className="w-44 bg-black text-white px-4 py-2 text-lg font-semibold rounded-full hover:bg-gray-800 transition-colors duration-200 hover:shadow-lg"
             >
               Next
             </button>

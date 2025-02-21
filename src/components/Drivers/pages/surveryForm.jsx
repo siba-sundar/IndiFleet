@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+
 import Logo from "../../../assets/logo1.svg"
+import { useState } from "react";
 
 const DriverSurveyForm = () => {
   const [formData, setFormData] = useState({

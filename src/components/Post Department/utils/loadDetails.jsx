@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 // assets
 import truckFront from "../../../assets/truck-front.svg"

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Group from '/src/assets/Group 5.svg'; // Ensure you have the correct path
 
 const HowItWorks = () => {

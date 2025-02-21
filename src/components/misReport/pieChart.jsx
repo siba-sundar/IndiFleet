@@ -1,5 +1,5 @@
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
-import React from 'react';
+
 
 // Data for the fuel status pie chart
 const fuelData = [
@@ -22,7 +22,7 @@ function FuelStatusPieChart() {
           dataKey="value"
           outerRadius={80}
           fill="#82ca9d"
-          label={({ name, value }) => `${value}%`}
+          label={({ value }) => `${value}%`}
         >
           {fuelData.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

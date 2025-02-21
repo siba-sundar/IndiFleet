@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom'; // Use useNavigate for navigation
 import ConcentricCircleChart from './concentricChart';
 import FuelStatusPieChart from './pieChart';

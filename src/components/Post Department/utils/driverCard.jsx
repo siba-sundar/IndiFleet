@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 
 import driverImg from "../../../assets/driver-profile.svg"
 
@@ -110,7 +110,7 @@ const DriverCard = ({ sentimentLabel, sentimentScore }) => {
             <p className=" text-gray-300">Age: 35</p>
             <p className="text-gray-300">License Number: 123456789</p>
             <p className="text-gray-300">Contact: 7013456872</p>
-            <p className="text-gray-300">Employee ID: EMP001</p>
+            <p className="text-gray-300">Employee ID:EMP001</p>
           </div>
         </div>
       </div>

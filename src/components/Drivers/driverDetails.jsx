@@ -1,6 +1,6 @@
 import React from 'react'
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts'
-import { User, Activity, Heart, Brain, AlertTriangle } from 'lucide-react'
+import {  Activity, Heart, Brain, AlertTriangle } from 'lucide-react'
 import DriverInfo from "../Post Department/utils/driverCard"
 
 
@@ -91,7 +91,7 @@ const CardContent = ({ children, className }) => (
 )
 
 // Badge Component
-const Badge = ({ children, className, variant = "default" }) => (
+const Badge = ({ children, className = "default" }) => (
   <span className={`px-2 py-1 rounded text-white text-xs ${className}`}>
     {children}
   </span>

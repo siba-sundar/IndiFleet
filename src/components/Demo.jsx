@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 
 const Demo = () => {
@@ -9,7 +9,7 @@ const Demo = () => {
   };
   return (
     <div className="md:px-14 px-6 py-28 max-w-screen-2xl mx-auto bg-[#2563EB]">
-      <h2 className="text-5xl text-white font-bold text-center mb-5">Start Maximizing Your Fleet's Potential</h2>
+      <h2 className="text-5xl text-white font-bold text-center mb-5">Start Maximizing Your Fleet&apos;s Potential</h2>
       <p className="text-lg text-white text-center mb-8">
         Join the growing number of businesses optimizing their logistics with the <br /> telematics solution
       </p>

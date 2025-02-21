@@ -1,5 +1,5 @@
 import ReactSpeedometer from 'react-d3-speedometer';
-import React from 'react';
+
 
 function Speedometer() {
   return (

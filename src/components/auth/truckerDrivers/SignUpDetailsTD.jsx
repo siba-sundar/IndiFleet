@@ -1,14 +1,11 @@
-import { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import  { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const SignUpDetailsTD = () => {
   const [addressYears, setAddressYears] = useState(false);
-  const [otherName, setOtherName] = useState(false);
-  const [validLicense, setValidLicense] = useState(false);
-  const [military, setMilitary] = useState(false);
-  const [truckSchool, setTruckSchool] = useState(false);
+ 
   const navigate = useNavigate();
-  const location = useLocation();
+ 
 
   const handleDetailsSubmitTD = (e) => {
     e.preventDefault();

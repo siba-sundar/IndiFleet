@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import banner from '../assets/banner.svg';
 

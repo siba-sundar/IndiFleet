@@ -1,13 +1,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import viteCommonjs from 'vite-plugin-commonjs';  // Import the plugin
+
+// Fix for __dirname in Vite (ESM environment)
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 export default defineConfig({
-  plugins: [react(), viteCommonjs()],
+  plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
+      '@': path.resolve(__dirname, 'src'),  // Using __dirname equivalent
     },
   },
   build: {

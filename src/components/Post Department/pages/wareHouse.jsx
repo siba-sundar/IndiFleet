@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { AlertCircle, CheckCircle, Clock, Package } from 'lucide-react'
 
 // Mock data for warehouses

@@ -1,3 +1,4 @@
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './components/Home';
 import MyFooter from './components/MyFooter';
@@ -20,14 +21,14 @@ import SignInB from './components/auth/business/SignInB';
 import SignInCard from './components/auth/SignCard/SignInCard';
 import SignUpCard from './components/auth/SignCard/SignUpCard';
 import MISReport from './components/misReport/misReports';
-import TopNav from './components/Global/topNav.jsx';
+
 import TruckPage from './components/Post Department/pages/truckDetails.jsx';
 import DriverList from "./components/Post Department/pages/driverList.jsx";
 import LogisticsPage from './components/Post Department/pages/companyDetails.jsx';
 import InboxPage from "./components/Post Department/pages/inboxPage.jsx";
 import Warehouse from "./components/Post Department/pages/wareHouse.jsx";
 import Soon from "./components/comingSoon.jsx";
-import DriverDetailsPage from './components/Drivers/driverDetails.jsx';
+
 import TruckReservation from "./components/Companies/pages/truckReservation.jsx";
 import YourTruck from "./components/Drivers/pages/yourTruck.jsx";
 import Analysis from "./components/Drivers/pages/surveryForm.jsx";
@@ -35,24 +36,12 @@ import Analysis from "./components/Drivers/pages/surveryForm.jsx";
 
 import DopLayouts from './layouts/DopLayouts.jsx';
 import DriverLayout from "./layouts/DriverLayout.jsx"
-import { useState } from 'react';
+
 import 'leaflet/dist/leaflet.css';
 import './index.css';
 
 function App() {
-  const [navOptions, setNavOptions] = useState(['Truck', 'Drivers', 'Third Party Logistics', 'Warehouse', 'Inbox']);
-
-  const handleBussinessPage = () => {
-    setNavOptions(['Track Your Truck', 'Truck Reservation']);
-  };
-
-  const handlePostOfficePage = () => {
-    setNavOptions(['Truck', 'Drivers', 'Third Party Logistics', 'Warehouse', 'Inbox']);
-  };
-
-  const handleDriverPage = () => {
-    setNavOptions(['Your Truck', 'Sentiment Analysis']);
-  };
+ 
 
   const router = createBrowserRouter([
     {

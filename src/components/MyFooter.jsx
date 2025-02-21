@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Footer } from 'flowbite-react';
 import logo from '../assets/logo1_dark.png';
 
@@ -42,7 +42,7 @@ const MyFooter = () => {
               <Footer.Title title="Need Help" className="text-neutralDGrey" />
               <Footer.LinkGroup col>
                 <Footer.Link href="#" className="text-white">Contact Us</Footer.Link>
-                <Footer.Link href="#" className="text-white">FAQ'S</Footer.Link>
+                <Footer.Link href="#" className="text-white">FAQ&apos;S</Footer.Link>
                 <Footer.Link href="#" className="text-white">Raise a Concern</Footer.Link>
                 <Footer.Link href="#" className="text-white">Calendar</Footer.Link>
                 <Footer.Link href="#" className="text-white">Web Information Manager</Footer.Link>

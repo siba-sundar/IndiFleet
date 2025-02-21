@@ -7,11 +7,14 @@ import DriverCard from '../utils/driverCard.jsx'
 import SideBar from "../../Global/sideBar.jsx"
 import RouteGraph from "../../../assets/route-graph.svg"
 
+import { useNavigate } from "react-router-dom"
+
 
 
 
 
 function TruckDetails() {
+    const navigate = useNavigate();
 
     const truckData = [
         {
@@ -86,7 +89,7 @@ function TruckDetails() {
                             <div className="w-[70%]">
                                 <div
                                  className="w-full"
-                                 onClick={() => Navigate('/driver-details')}
+                                 onClick={() => navigate('/driver-details')}
                                 >
                                     <DriverCard />
                                 </div>
