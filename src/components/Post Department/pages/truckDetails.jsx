@@ -1,11 +1,11 @@
 import Map from "../utils/map.jsx"
 import TruckLoad from "../utils/loadDetails.jsx"
 import Location from "../utils/loaction.jsx"
-import Stats from "../utils/stats.jsx"
+
 import Graph from "../utils/graphComp.jsx"
 import DriverCard from '../utils/driverCard.jsx'
 import SideBar from "../../Global/sideBar.jsx"
-import RouteGraph from "../../../assets/route-graph.svg"
+
 
 import { useNavigate } from "react-router-dom"
 
