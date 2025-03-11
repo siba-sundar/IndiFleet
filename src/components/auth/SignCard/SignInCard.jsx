@@ -1,13 +1,13 @@
 
 import { useNavigate } from 'react-router-dom';
-import Image4 from '../../../assets/Image 4.svg';
-import Image1 from '../../../assets/Image 1.svg';
-import Image2 from '../../../assets/Image 2.svg';
+import Image4 from '/Image 4.svg';
+import Image1 from '/Image 1.svg';
+import Image2 from '/Image 2.svg';
 
 const SignInCard = () => {
   const navigate = useNavigate();
   const handleSignUp = () => {
-    navigate('/signupcard');
+    navigate('/auth/signupcard');
 };
 
   return (
