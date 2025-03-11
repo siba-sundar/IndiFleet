@@ -27,7 +27,7 @@ const Home = () => {
               Real-time tracking, capacity optimization, and seamless logistics management for smarter, more efficient deliveries.
             </p>
             <button
-              className="px-8 py-4 bg-neutralDGrey text-white font-bold text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-2xl"
+              className="px-8 py-4 bg-neutralDGrey text-white font-bold text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-2xl bg-black"
               onClick={handleGetStarted} // Attach click handler
             >
               Get Started
