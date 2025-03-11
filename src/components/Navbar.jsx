@@ -1,6 +1,6 @@
 import  { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logo from '../assets/logo1.png';
+import logo from '/logo1.png';
 import { Link } from 'react-scroll';
 import { FaXmark, FaBars, FaChevronDown, FaChevronUp } from 'react-icons/fa6';
 

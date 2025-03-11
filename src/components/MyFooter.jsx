@@ -1,6 +1,6 @@
 
 import { Footer } from 'flowbite-react';
-import logo from '../assets/logo1_dark.png';
+import logo from '/logo1_dark.png';
 
 const MyFooter = () => {
   return (
