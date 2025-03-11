@@ -13,7 +13,7 @@ const SignUpB = () => {
       alert("Passwords don't match");
       return;
     }
-    navigate('/signupdetailsb');
+    navigate('/auth/signupdetails-partner');
   };
 
   return (

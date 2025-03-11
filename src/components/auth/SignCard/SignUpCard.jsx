@@ -29,7 +29,7 @@ const SignUpCard = () => {
              {/* Card 3 */}
              <div
               className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/auth/signupp')}
+              onClick={() => navigate('/auth/signup-company')}
             >
               <img src={Image2} alt="Logo" className="w-16 h-16 mr-6" />
               <div>
@@ -41,7 +41,7 @@ const SignUpCard = () => {
             {/* Card 1 */}
             <div
               className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/auth/signuptd')}
+              onClick={() => navigate('/auth/signupt-driver')}
             >
               <img src={Image4} alt="Logo" className="w-16 h-16 mr-6" />
               <div>
@@ -52,7 +52,7 @@ const SignUpCard = () => {
             {/* Card 2 */}
             <div
               className="bg-white shadow-md p-8 flex items-center cursor-pointer rounded-xl hover:shadow-lg hover:scale-105 transition duration-300"
-              onClick={() => navigate('/auth/signupb')}
+              onClick={() => navigate('/auth/signup-partner')}
             >
               <img src={Image1} alt="Logo" className="w-16 h-16 mr-6" />
               <div>

@@ -14,7 +14,7 @@ const SignUpP = () => {
       return;
     }
     // After password match, navigate to signupdetails page
-    navigate('/signupdetailsp');
+    navigate('/auth/signupdetails-company');
   };
 
   return (

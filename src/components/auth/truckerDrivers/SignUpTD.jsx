@@ -14,8 +14,9 @@ const SignUpTD = () => {
       alert("Passwords don't match");
       return;
     }
+    
 
-    navigate('/otppagetd', { state: { phone } }); 
+    navigate('/auth/otppagetd', { state: { phone } }); 
   };
 
   return (

@@ -41,7 +41,7 @@ const OtpPageTD = () => {
     const otpValue = otp.join('');
 
     if (otpValue === '123456') {
-      navigate('/signupdetailstd', { state: { phone: location.state?.phone } });
+      navigate('/auth/signupdetailst-driver', { state: { phone: location.state?.phone } });
     } else {
       alert('Invalid OTP');
     }
