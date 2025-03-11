@@ -56,9 +56,9 @@ const VerticalProgressBar = () => {
                     >
                         {/* Tick Mark inside the circle */}
                         {index <= currentCheckpointIndex && (
-                            <svg
+                            <webp
                                 className="w-4 h-4 text-white"
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="http://www.w3.org/2000/webp"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
                             >
@@ -67,7 +67,7 @@ const VerticalProgressBar = () => {
                                     d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
                                     clipRule="evenodd"
                                 />
-                            </svg>
+                            </webp>
                         )}
 
                         <div

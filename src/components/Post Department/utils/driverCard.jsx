@@ -1,6 +1,6 @@
 import  { useState, useEffect } from 'react';
 
-import driverImg from "/driver-profile.svg"
+import driverImg from "/driver-profile.webp"
 
 const SentimentAnalysis = () => {
   const [requestBody, setRequestBody] = useState(`{

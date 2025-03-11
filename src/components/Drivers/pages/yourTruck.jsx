@@ -1,6 +1,6 @@
 import Map from "../../Post Department/utils/map.jsx"
 import TruckLoad from "../../Post Department/utils/loadDetails.jsx"
-import QR from "/Qr.svg"
+import QR from "/Qr.webp"
 
 
 

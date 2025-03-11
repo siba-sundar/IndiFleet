@@ -1,8 +1,8 @@
 
 import { useNavigate } from 'react-router-dom';
-import Image4 from '/Image 4.svg';
-import Image1 from '/Image 1.svg';
-import Image2 from '/Image 2.svg';
+import Image4 from '/Image 4.webp';
+import Image1 from '/Image 1.webp';
+import Image2 from '/Image 2.webp';
 
 const SignInCard = () => {
   const navigate = useNavigate();

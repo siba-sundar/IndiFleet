@@ -1,6 +1,6 @@
 
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import banner from '/banner.svg';
+import banner from '/banner.webp';
 
 const Home = () => {
   const navigate = useNavigate(); // Create navigate function

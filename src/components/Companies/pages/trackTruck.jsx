@@ -4,7 +4,7 @@ import Location from "../../Post Department/utils/loaction.jsx"
 import Graph from "../../Post Department/utils/graphComp.jsx"
 import DriverCard from '../../Post Department/utils/driverCard.jsx'
 import SideBar from "../../Global/sideBar.jsx"
-// import QR from "../../../assets/QR.svg"
+import QR from "/QR.webp"
 
 import { useNavigate } from "react-router-dom"
 
@@ -78,7 +78,7 @@ function TruckDetails() {
                                 <div className="w-[20%]">
                                     <div className="bg-[#020073] mt-4 rounde-sm w-[18vw] h-[40vh] p-4 rounded-md">
                                         <p className="text-lg text-white font-semibold">Truck QR</p>
-                                        <img src="" alt="" />
+                                        <img src={QR} alt="" />
                                     </div>
                                 </div>
                             </div>

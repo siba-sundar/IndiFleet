@@ -6,37 +6,37 @@ const Services = () => {
       id: 1,
       title: 'Real-Time GPS Tracking',
       description: 'Monitor truck locations, routes, and statuses in real-time for full visibility.',
-      image: '/Services/globe_.svg',
+      image: '/Services/globe_.webp',
     },
     {
       id: 2,
       title: 'Capacity Utilization Monitoring',
       description: 'Ensure optimal load efficiency with real-time updates on truck capacity at each touchpoint.',
-      image: '/Services/Vector.svg',
+      image: '/Services/Vector.webp',
     },
     {
       id: 3,
       title: '3PL Partner Integration',
       description: 'Monetize unused capacity by seamlessly integrating with third-party logistics partners.',
-      image: '/Services/processor.svg',
+      image: '/Services/processor.webp',
     },
     {
       id: 4,
       title: 'Automated Dispatch Scheduling',
       description: 'Automate scheduling and route adjustments based on live data and dynamic conditions.',
-      image: '/Services/ep_location.svg',
+      image: '/Services/ep_location.webp',
     },
     {
       id: 5,
       title: 'Geofencing & Alerts',
       description: 'Receive instant alerts for route deviations, delays, or vehicle issues using geofencing technology.',
-      image: '/Services/trend 1.svg',
+      image: '/Services/trend 1.webp',
     },
     {
       id: 6,
       title: 'Comprehensive Reports & Analytics',
       description: 'Generate visual reports on truck performance, delays, and capacity usage to make data-driven decisions.',
-      image: '/Services/notification.svg',
+      image: '/Services/notification.webp',
     },
   ];
 
@@ -45,19 +45,19 @@ const Services = () => {
       id: 1,
       title: 'Maximize Efficiency',
       description: 'Reduce downtime, improve capacity usage, and streamline your fleet management.',
-      image: '/Services/efficacy.svg',
+      image: '/Services/efficacy.webp',
     },
     {
       id: 2,
       title: 'Real-Time Insights',
       description: 'Get real-time insights to make proactive decisions and stay ahead of potential disruptions.',
-      image: '/Services/insight.svg',
+      image: '/Services/insight.webp',
     },
     {
       id: 3,
       title: 'End-to-End Automation',
       description: 'Automate dispatch, scheduling, and reporting for smooth and hassle-free fleet operations.',
-      image: '/Services/travel.svg',
+      image: '/Services/travel.webp',
     },
   ];
 
@@ -76,7 +76,7 @@ const Services = () => {
             >
               {/* Icon/Image */}
               <div className="mb-4 h-16 w-16 mx-auto rounded-full flex items-center justify-center">
-                <img src={service.image} alt={service.title} className="h-24 w-24" />
+                <img src={service.image} alt={service.title} className="h-16 " />
               </div>
 
               {/* Title */}

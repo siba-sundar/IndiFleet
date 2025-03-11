@@ -1,5 +1,5 @@
 
-import Group from '/Group 5.svg'; // Ensure you have the correct path
+import Group from '/Group 5.webp'; // Ensure you have the correct path
 
 const HowItWorks = () => {
   return (

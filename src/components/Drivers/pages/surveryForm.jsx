@@ -1,5 +1,5 @@
 
-import Logo from "/logo1.svg"
+import Logo from "/logo1.webp"
 import { useState } from "react";
 
 const DriverSurveyForm = () => {

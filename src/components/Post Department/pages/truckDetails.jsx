@@ -5,7 +5,7 @@ import Location from "../utils/loaction.jsx"
 import Graph from "../utils/graphComp.jsx"
 import DriverCard from '../utils/driverCard.jsx'
 import SideBar from "../../Global/sideBar.jsx"
-import QR from "/Qr.svg"
+import QR from "/Qr.webp"
 
 import { useNavigate } from "react-router-dom"
 

@@ -4,7 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 // Import the marker icon image
-import markerIconPng from '/locationpoi.svg';
+import markerIconPng from '/locationpoi.webp';
 
 // Create a custom icon
 const markerIcon = new L.Icon({

@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 // Assets
-import logo from "/logo1.svg";
-import settingIcon from "/settings-icon.svg";
-import contactIcon from "/contact-icon.svg";
-import profileIcon from "/profile-icon.svg";
+import logo from "/logo1.webp";
+import settingIcon from "/settings-icon.webp";
+import contactIcon from "/contact-icon.webp";
+import profileIcon from "/profile-icon.webp";
 
 function DopNav() {
   const navigate = useNavigate();
