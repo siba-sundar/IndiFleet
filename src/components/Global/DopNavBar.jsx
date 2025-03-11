@@ -40,10 +40,10 @@ function DopNav() {
   };
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
-      <div className="flex items-center space-x-8">
+    <nav className="flex items-center justify-between px-6 py-2 bg-white shadow-md ">
+      
         {/* Logo */}
-        <img src={logo} alt="Logo" className="h-8" onClick={() => navigate('/')} />
+        <img src={logo} alt="Logo" className="h-12 bg-red" onClick={() => navigate('/')} />
 
         {/* Navigation Options */}
         <div className="flex items-center justify-center gap-5">
@@ -60,7 +60,7 @@ function DopNav() {
             </button>
           ))}
         </div>
-      </div>
+      
 
       {/* Right side icons */}
       <div className="flex items-center space-x-4">

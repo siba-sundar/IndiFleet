@@ -4,8 +4,10 @@ import DopNav from "../components/Global/DopNavBar"
 const DopLayouts = () => {
   return (
     <div className="dop-layout">
+      <div className="fixed z-50 w-screen">
       <DopNav />
-      <main>
+      </div>
+      <main className="pt-20">
         <Outlet />
       </main>
     </div>
