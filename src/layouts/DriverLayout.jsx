@@ -7,7 +7,7 @@ const DopLayouts = () => {
       <div className="fixed z-40 w-screen bg-white">
         <DriverNav />
       </div>
-      <main className="">
+      <main className="pt-20">
         <Outlet />
       </main>
     </div>

@@ -1,6 +1,6 @@
 
 
-import companyImg from "../../../assets/company-logo.svg"; // Replace with the actual path to your company logo
+import companyImg from "/company-logo.svg"; // Replace with the actual path to your company logo
 
 // CompanyDetails Component
 const CompanyDetails = ({ companyDetails }) => {

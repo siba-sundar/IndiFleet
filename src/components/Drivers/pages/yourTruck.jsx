@@ -1,6 +1,6 @@
 import Map from "../../Post Department/utils/map.jsx"
 import TruckLoad from "../../Post Department/utils/loadDetails.jsx"
-// import QR from "../../../assets/QR.svg"
+import QR from "/Qr.svg"
 
 
 
@@ -76,9 +76,9 @@ function TruckDetails() {
                             <div>
                                 <TruckLoad loadPercentage={truckLoadPercentage} truckDetails={truckDetails} />
                                 <div className="w-[20%]">
-                                    <div className="bg-[#020073] mt-4 rounde-sm w-[18vw] h-[40vh] p-4 rounded-md">
-                                        <p className="text-lg text-white font-semibold">Truck QR</p>
-                                        <img src="  `" alt="" />
+                                    <div className="flex flex-col items-center bg-[#020073] mt-4 rounde-sm w-[18vw] h-[40vh] p-4 rounded-md">
+                                        <p className="text-lg text-white font-semibold pb-3">Truck QR</p>
+                                        <img src={QR} alt="" />
                                     </div>
                                 </div>
                             </div>

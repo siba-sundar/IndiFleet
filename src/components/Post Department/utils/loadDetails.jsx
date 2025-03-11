@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 // assets
-import truckFront from "../../../assets/truck-front.svg"
+import truckFront from "/truck-front.svg"
 
 function LoadDetails({ loadPercentage, truckDetails }) {
     const [animationStarted, setAnimationStarted] = useState(false);

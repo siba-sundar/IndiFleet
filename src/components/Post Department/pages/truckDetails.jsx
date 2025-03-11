@@ -5,7 +5,7 @@ import Location from "../utils/loaction.jsx"
 import Graph from "../utils/graphComp.jsx"
 import DriverCard from '../utils/driverCard.jsx'
 import SideBar from "../../Global/sideBar.jsx"
-
+import QR from "/Qr.svg"
 
 import { useNavigate } from "react-router-dom"
 
@@ -61,7 +61,7 @@ function TruckDetails() {
         { id: 2, number: 'PB08N1234', driver: 'Raj Kumar', status: 'Delivered', image: "" },
         { id: 3, number: 'DL05G6789', driver: 'Mohit Singh', status: 'In Transit', image: "" },
         { id: 4, number: 'RJ10C7890', driver: 'Suresh Mehta', status: 'Delivered', image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2lQnH22TeMP8lVoZ8RIvXmV0pnQJ9PtfEXw&usqp=CAU" },
-      ];
+    ];
 
 
     return (
@@ -77,9 +77,9 @@ function TruckDetails() {
                             <div>
                                 <TruckLoad loadPercentage={truckLoadPercentage} truckDetails={truckDetails} />
                                 <div className="w-[20%]">
-                                    <div className="bg-[#020073] mt-4 rounde-sm w-[18vw] h-[40vh] p-4 rounded-md">
-                                        <p className="text-lg text-white font-semibold">Truck QR</p>
-                                       <img src="" alt="" />
+                                    <div className="flex flex-col items-center bg-[#020073] mt-4 rounde-sm w-[18vw] h-[40vh] p-4 rounded-md">
+                                        <p className="text-lg text-white font-semibold pb-3">Truck QR</p>
+                                        <img src={QR} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -88,8 +88,8 @@ function TruckDetails() {
                         <div className="flex">
                             <div className="w-[70%]">
                                 <div
-                                 className="w-full"
-                                 onClick={() => navigate('/driver-details')}
+                                    className="w-full"
+                                    onClick={() => navigate('/driver-details')}
                                 >
                                     <DriverCard />
                                 </div>
@@ -114,10 +114,10 @@ function TruckDetails() {
                 </div>
 
             </div>
-            </>
-            )
+        </>
+    )
 }
 
 
 
-            export default TruckDetails
+export default TruckDetails
